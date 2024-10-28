@@ -6,8 +6,9 @@
     <title>Document</title>
   </head>
   <body>
-<h1>Desafio Condicionales Javas</h1>
+    <h1>Desafio Condicionales Javas</h1>
 
+    <!-- Ejercicio 1 -->
     <hr />
 
     <details>
@@ -17,7 +18,7 @@
         imagen se le debe agregar un borde rojo de 2 pixeles, al hacerle click
         nuevamente se le debe quitar el borde.
       </p>
-
+<!-- Operacion realizada al hacer click en la imagen -->
       <img
         id="img"
         src="https://placedog.net/500"
@@ -36,6 +37,7 @@
       />
     </details>
 
+    <!-- Ejercicio 2 -->
     <hr />
     <details>
       <summary><b style="font-size: large"> Ejercicio 2</b></summary>
@@ -62,7 +64,10 @@
       <input id="sticker3" type="text" />
 
       <p></p>
-      <button onclick="
+
+      <!-- Operacion realizada dentro del boton -->
+      <button
+        onclick="
         sticker_01 = Number(document.querySelector('#sticker1').value);
         sticker_02 = Number(document.querySelector('#sticker2').value);
         sticker_03 = Number(document.querySelector('#sticker3').value);
@@ -79,11 +84,14 @@
             total_sticker.innerText = 'Estas llevando mas Sticker de lo permitido'
 
         }
-        ">Validar Sticker </button>
-        
+        "
+      >
+        Validar Sticker
+      </button>
     </details>
 
-    <hr/>
+    <!-- Ejercicio 3 -->
+    <hr />
     <details>
       <summary><b style="font-size: large"> Ejercicio 3</b></summary>
       <p>
@@ -135,7 +143,9 @@
 
       <h2 id="mensajePasword"></h2>
 
-      <button onclick="
+      <!-- Operacion realizada dentro del boton -->
+      <button
+        onclick="
       
       let digito1 = document.querySelector('#num1').value;
       let digito2 = document.querySelector('#num2').value;
@@ -155,7 +165,10 @@
       
       
       
-      ">Validar Password</button>
+      "
+      >
+        Validar Password
+      </button>
 
       <hr />
     </details>
